@@ -49,8 +49,9 @@ const Index = () => {
 };
 
 const MissionStatement = () => {
+  const bgColor = useColorModeValue("gray.100", "gray.700");
   return (
-    <Box py={16}>
+    <Box py={16} bg={bgColor} px={{ base: 4, md: 8 }}>
       <Heading as="h2" size="xl" textAlign="center" mb={6}>
         Our Mission
       </Heading>
@@ -62,8 +63,9 @@ const MissionStatement = () => {
 };
 
 const Collaborations = () => {
+  const bgColor = useColorModeValue("gray.50", "gray.800");
   return (
-    <Box py={16}>
+    <Box py={16} bg={bgColor} px={{ base: 4, md: 8 }}>
       <Heading as="h2" size="xl" textAlign="center" mb={6}>
         Collaborations & Partnerships
       </Heading>
