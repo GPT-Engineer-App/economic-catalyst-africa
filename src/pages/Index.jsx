@@ -48,32 +48,6 @@ const Index = () => {
   );
 };
 
-const MissionStatement = () => {
-  return (
-    <Box py={16}>
-      <Heading as="h2" size="xl" textAlign="center" mb={6}>
-        Our Mission
-      </Heading>
-      <Text fontSize="xl" color={useColorModeValue("gray.600", "gray.200")} textAlign="center">
-        As a leading catalyst for economic development in Africa, we are committed to providing best-in-class services that drive economic growth, enhance market access and finance, while promoting sustainable developments. We create value by offering comprehensive solutions, leveraging our expertise, and fostering meaningful partnerships.
-      </Text>
-    </Box>
-  );
-};
-
-const Collaborations = () => {
-  return (
-    <Box py={16}>
-      <Heading as="h2" size="xl" textAlign="center" mb={6}>
-        Collaborations & Partnerships
-      </Heading>
-      <Text fontSize="xl" color={useColorModeValue("gray.600", "gray.200")} textAlign="center">
-        Our strategic collaborations and partnerships are pivotal to our mission. By working together with leading organizations and stakeholders, we are able to amplify our impact and drive transformative change across the continent.
-      </Text>
-    </Box>
-  );
-};
-
 const ServiceBox = ({ icon, title, description }) => {
   return (
     <VStack
